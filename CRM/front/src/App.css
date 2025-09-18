@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'SF-bold';
+  src: url("./fonts/SFProText-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'SF-medium';
+  src: url("./fonts/SFProText-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'SF-regular';
+  src: url("./fonts/SFProText-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'SF-semibold';
+  src: url("./fonts/SFProText-Semibold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 600;
+}

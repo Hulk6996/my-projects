@@ -1,0 +1,42 @@
+.colleagues-container {
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    background: #fff; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px;
+  }
+  
+  .colleagues-container h2 {
+    margin-bottom: 20px; 
+    text-align: center; 
+  }
+  
+  .colleagues-list {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0; 
+  }
+  
+  .colleague-item {
+    display: flex; 
+    align-items: center; 
+    padding: 10px 0; 
+    border-bottom: 1px solid #eee; 
+  }
+  
+  .colleague-item:last-child {
+    border-bottom: none;
+  }
+  
+  .colleague-item img {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    margin-right: 10px; 
+  }
+  
+  .colleague-item div {
+    font-size: 16px; 
+  }
+  

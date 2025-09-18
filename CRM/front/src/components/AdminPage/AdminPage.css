@@ -1,0 +1,36 @@
+.admin-page {
+    display: flex;
+    margin-top: -250px;
+  }
+  
+  .admin-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .logs-container {
+    margin-top: 20px;
+    max-height: 500px;
+    overflow-y: auto;
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    padding: 10px;
+    background-color: #1a1a2e; 
+  }
+  
+  .log-entry {
+    background-color: #1a1a2e;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .log-entry p {
+    margin: 5px 0;
+  }
+  
+  .error {
+    color: rgb(255, 255, 255);
+  }
+  

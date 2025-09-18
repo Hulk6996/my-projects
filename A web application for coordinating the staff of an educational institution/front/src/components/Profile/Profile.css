@@ -1,0 +1,238 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #1c1e21;
+  }
+  
+  .profile {
+    max-width: 700px; 
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+
+  .edit-button {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+  }
+
+  .profile input[type="text"], 
+  .profile input[type="file"] {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: calc(100% - 20px); 
+    height: 20px;
+    border: 1px solid #ccd0d5;
+    border-radius: 4px;
+  }
+
+  .profile-edit-input {
+    margin-left: 10px; 
+    margin-right: 10px; 
+    width: calc(100% - 20px); 
+  }
+  
+  .profile button {
+    background-color: #337AB7;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .profile button:hover {
+    background-color: #1654a1;
+  }
+  
+  .profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px 0;
+  }
+ 
+  .logout-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 15px;
+    background-color: #337AB7;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .logout-button:hover {
+    background-color: #1654a1;
+  }
+
+  .post-creation {
+    margin-top: 20px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-creation textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccd0d5;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  .post-creation input[type="file"] {
+    margin-bottom: 10px;
+  }
+  
+  .profile-images {
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: nowrap; 
+    margin-bottom: 20px; 
+  }
+  
+  .profile-image.selected {
+    border: 2px solid blue; 
+  }
+
+  .profile img {
+    width: 80px; 
+    height: 80px;
+    border-radius: 50%;
+    margin: 5px;
+  }
+
+
+  .centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .stack-code {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .stack-code p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .stack-code code {
+    font-size: 18px;
+    background-color: #fff;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .generate-stack-code-button {
+    background-color: #1c1e21;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block; 
+    margin: 0 auto; 
+    margin-top: 20px; 
+    transition: background-color 0.3s; 
+  }
+  
+  .generate-stack-code-button:hover {
+    background-color: #000; 
+  }
+  .cl-btn-6 {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    position: relative;
+    z-index: 1;
+    margin: -10px 660px;
+    cursor: pointer;
+}
+.cl-btn-6:before {
+    content: '+';
+    color: #337AB7;
+    position: absolute;
+    z-index: 2;
+    transform: rotate(45deg);
+    font-size: 50px;
+    line-height: 1;
+    top: -5px;
+    left: 6px;
+    transition: all 0.3s cubic-bezier(0.77, 0, 0.2, 0.85);
+}
+.cl-btn-6:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background: #337AB7;
+    z-index: 1;
+    transition: all 0.3s cubic-bezier(0.77, 0, 0.2, 0.85);
+    transform: scale(0.01);
+}
+.cl-btn-6:hover:after {
+    transform: scale(1);
+}
+.cl-btn-6:hover:before {
+    transform: scale(0.8) rotate(45deg);
+    color: #fff;
+}
+
+.cl-btn-7:before {
+  content: '+';
+  color: #337AB7;
+  position: absolute;
+  z-index: 2;
+  transform: rotate(45deg);
+  font-size: 50px;
+  line-height: 1;
+  top: 0;
+  left: 6px;
+  transition: all 0.3s cubic-bezier(0.77, 0, 0.2, 0.85);
+}
+
+.cl-btn-7:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background: #337AB7;
+  z-index: 1;
+  transition: all 0.3s cubic-bezier(0.77, 0, 0.2, 0.85);
+  transform: scale(0.01);
+}
+.cl-btn-7:hover:after {
+  transform: scale(1);
+}
+.cl-btn-7:hover:before {
+  transform: scale(0.8) rotate(45deg);
+  color: #fff;
+}

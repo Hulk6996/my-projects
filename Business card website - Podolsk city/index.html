@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet"  href="pd.css">
+</head>
+<body>
+	<header class="header">
+		<div class="logo">
+		  <h1>PODOLSK</h1>
+		</div>
+		<nav class="navigation">
+		  <ul>
+			<li><a href="#">О нас</a></li>
+			<li><a href="#">Контакты</a></li>
+			<li><a href="forma.php">Войти</a></li>
+		  </ul>
+		</nav>
+	</header>
+	<main>
+		<section class="about">
+			<div class="container">
+			  <h2 class="section-title">О нас</h2>
+			  <p class="section-text">Мы команда энтузиастов, которые любят наш город и хотят помочь вам в его изучении. Наш сайт предлагает подбор мест для посещения в Подольске на основе ваших предпочтений, чтобы вы могли насладиться этим красивым городом. </p>
+			</div>
+		  </section>
+		<section class="contact-section">
+  <div class="contact-info">
+    <h2>Свяжитесь с нами</h2>
+    <p>Наш адрес:</p>
+    <p>г. Москва, ул. Ленина, д. 10</p>
+    <p>Телефон: +7 (495) 123-45-67</p>
+    <p>Email: info@example.com</p>
+  </div>
+  <form class="contact-form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
+    <h2>Отправить сообщение</h2>
+    <div class="form-group">
+      <label for="name">Имя</label>
+      <input type="text" name="name" id="name">
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email">
+    </div>
+    <div class="form-group">
+      <label for="message">Сообщение</label>
+      <textarea name="message" id="message"></textarea>
+    </div>
+    <button type="submit" name="send">Отправить</button>
+  </form>
+</section>
+
+		  
+		  
+	</main>  
+	  
+</body>
+</html>
